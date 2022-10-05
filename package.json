@@ -1,0 +1,25 @@
+{
+  "name": "@herp-inc/tsconfig.json",
+  "version": "1.0.0",
+  "description": "Shared TypeScript configuration for the projects in HERP, Inc.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/herp-inc/tsconfig.json"
+  },
+  "keywords": [
+    "tsconfig.json",
+    "typescript"
+  ],
+  "author": "HERP, Inc.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/herp-inc/tsconfig.json/issues"
+  },
+  "homepage": "https://github.com/herp-inc/tsconfig.json",
+  "peerDependencies": {
+    "typescript": ">=4.4"
+  },
+  "exports": {
+    "./ts4.4": "./ts4.4/tsconfig.json"
+  }
+}
